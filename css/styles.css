@@ -269,25 +269,6 @@ main {
   gap: 0.75rem;
 }
 
-.linkedin-hint {
-  margin: 1.35rem 0 0;
-  max-width: 38rem;
-  font-size: 0.8rem;
-  line-height: 1.55;
-  color: var(--text-muted);
-}
-
-.linkedin-hint strong {
-  color: var(--text);
-  font-weight: 600;
-}
-
-.linkedin-hint-title {
-  display: inline;
-  color: var(--accent);
-  font-weight: 600;
-}
-
 .btn {
   display: inline-flex;
   align-items: center;
@@ -504,16 +485,6 @@ main {
 .project-links a {
   font-size: 0.85rem;
   font-weight: 600;
-}
-
-.note-box {
-  margin-top: 1.5rem;
-  padding: 1.1rem 1.25rem;
-  border-radius: var(--radius);
-  border: 1px dashed rgba(45, 212, 191, 0.35);
-  background: rgba(45, 212, 191, 0.06);
-  color: var(--text-muted);
-  font-size: 0.9rem;
 }
 
 .doc-previews {

@@ -205,17 +205,106 @@
 
       <section id="projetos" class="section reveal" aria-labelledby="proj-title">
         <h2 class="section-title" id="proj-title">Projetos no GitHub</h2>
+        <p class="section-lead">Foco em RPA: automacao de fluxos financeiros, processamento de documentos e produtividade operacional.</p>
         <div class="project-grid">
+          <article class="project-card">
+            <header>
+              <h3>RetPro</h3>
+              <span class="lang-tag">Python</span>
+            </header>
+            <p>
+              Aplicacao desktop para cruzar arquivos <strong>.ret/.txt</strong> com PDFs e gerar saidas consolidadas em
+              <strong>CSV/TXT</strong>. Reduz trabalho manual em conciliacao e auditoria de pagamentos.
+            </p>
+            <div class="project-tags">
+              <span class="tag">RPA</span>
+              <span class="tag">Consolidacao</span>
+              <span class="tag">PySide6</span>
+              <span class="tag">PDF/RET</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/RamomPacheco/RetPro" target="_blank" rel="noopener noreferrer"
+                >Repositório</a
+              >
+            </div>
+          </article>
+
+          <article class="project-card">
+            <header>
+              <h3>PDFfinderpro</h3>
+              <span class="lang-tag">Python</span>
+            </header>
+            <p>
+              Pipeline de comparacao entre PDF de pagamentos e pasta de PDFs de projetos, com destaque no documento e
+              geracao de artefatos para conferencia. Acelera validacao de contratos e comprovantes.
+            </p>
+            <div class="project-tags">
+              <span class="tag">RPA</span>
+              <span class="tag">Comparacao</span>
+              <span class="tag">Annotate PDF</span>
+              <span class="tag">PySide6</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/RamomPacheco/PDFfinderpro" target="_blank" rel="noopener noreferrer"
+                >Repositório</a
+              >
+            </div>
+          </article>
+
+          <article class="project-card">
+            <header>
+              <h3>MergePDF</h3>
+              <span class="lang-tag">Python</span>
+            </header>
+            <p>
+              Aplicacao GUI offline para unir multiplos PDFs com selecao por dialog e drag-and-drop. Ideal para fluxos
+              operacionais que exigem privacidade e padronizacao de documentos.
+            </p>
+            <div class="project-tags">
+              <span class="tag">RPA</span>
+              <span class="tag">Produtividade</span>
+              <span class="tag">Desktop</span>
+              <span class="tag">PySide6</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/RamomPacheco/MergePDF"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Repositório</a
+              >
+            </div>
+          </article>
+
+          <article class="project-card">
+            <header>
+              <h3>projct_Pro</h3>
+              <span class="lang-tag">Python</span>
+            </header>
+            <p>
+              Repositorio legado com os scripts que originaram os projetos de RPA em PDF/RET. Mostra evolucao da base
+              tecnica para aplicacoes estruturadas e com interface.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Base Legada</span>
+              <span class="tag">Scripts</span>
+              <span class="tag">PDF/RET</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/RamomPacheco/projct_Pro" target="_blank" rel="noopener noreferrer"
+                >Repositório</a
+              >
+            </div>
+          </article>
+
           <article class="project-card">
             <header>
               <h3>clipmaster</h3>
               <span class="lang-tag">Python</span>
             </header>
             <p>
-              Desktop “AI Viral Clipper”: <strong>Faster-Whisper</strong> para transcrição com timestamps,
-              análise com <strong>Ollama</strong>, <strong>Gemini</strong> ou <strong>Groq</strong>, corte e
-              exportação com <strong>FFmpeg</strong> (legendas estilo vertical opcional). Pipeline completo de
-              áudio → texto → LLM → vídeo.
+              Desktop "AI Viral Clipper": transcricao com Faster-Whisper, analise via LLM e exportacao com FFmpeg.
+              Projeto complementar em IA aplicada.
             </p>
             <div class="project-tags">
               <span class="tag">LLM</span>
@@ -236,16 +325,13 @@
               <span class="lang-tag">Python</span>
             </header>
             <p>
-              Sistema <strong>RAG</strong> com <strong>LangChain</strong>, vetores em
-              <strong>Chroma</strong>, ingestão de PDF/TXT/MD. Backends: <strong>Ollama</strong>, Hugging Face,
-              <strong>GGUF</strong> (llama.cpp) e API compatível com OpenAI. CLI + GUI PySide6 com histórico por
-              provedor.
+              Sistema RAG com LangChain/Chroma e multiplos backends de LLM, usado como base de IA para busca e
+              resposta em documentos.
             </p>
             <div class="project-tags">
               <span class="tag">RAG</span>
               <span class="tag">LangChain</span>
               <span class="tag">Chroma</span>
-              <span class="tag">Embeddings</span>
             </div>
             <div class="project-links">
               <a href="https://github.com/RamomPacheco/ChatRMulti" target="_blank" rel="noopener noreferrer"
@@ -260,10 +346,8 @@
               <span class="lang-tag">Python</span>
             </header>
             <p>
-              Dashboard <strong>Streamlit</strong>, persistência <strong>SQLite</strong> com
-              <strong>SQLAlchemy</strong> e assistente com <strong>LangChain</strong> +
-              <strong>Ollama</strong>. Boa vitrine para <strong>análise de dados</strong> aplicada e integração
-              de LLM em produto interno.
+              Dashboard em Streamlit com persistencia em SQLite/SQLAlchemy e assistente com LangChain + Ollama.
+              Complementa o portfolio com analise de dados aplicada.
             </p>
             <div class="project-tags">
               <span class="tag">Streamlit</span>
@@ -286,12 +370,12 @@
               <span class="lang-tag">Python</span>
             </header>
             <p>
-              App local para conversação, tradução e pronúncia EN↔PT-BR com áudio, temas guiados e integração
-              <strong>Ollama</strong> selecionável na interface — foco em UX de produto com IA conversacional.
+              App local para conversacao, traducao e pronuncia EN-PT com audio e integracao de Ollama, com foco em UX
+              para IA conversacional.
             </p>
             <div class="project-tags">
               <span class="tag">Ollama</span>
-              <span class="tag">Áudio</span>
+              <span class="tag">Audio</span>
               <span class="tag">I18n</span>
             </div>
             <div class="project-links">
@@ -307,12 +391,13 @@
               <span class="lang-tag">Python</span>
             </header>
             <p>
-              GUI <strong>PySide6</strong> + <strong>yt-dlp</strong> para download de vídeo/áudio — demonstra
-              desktop Python e integração com ferramentas de mídia.
+              GUI PySide6 + yt-dlp para download de video e audio. Projeto utilitario para automacao de tarefas de
+              midia.
             </p>
             <div class="project-tags">
               <span class="tag">PySide6</span>
-              <span class="tag">MIT</span>
+              <span class="tag">yt-dlp</span>
+              <span class="tag">Desktop</span>
             </div>
             <div class="project-links">
               <a href="https://github.com/RamomPacheco/downyoutu" target="_blank" rel="noopener noreferrer"
@@ -327,11 +412,13 @@
               <span class="lang-tag">Python</span>
             </header>
             <p>
-              Repositório com conjunto de experimentos e scripts em Python — útil para explorar variedade de
-              pequenos projetos.
+              Colecao de scripts e experimentos em Python com varias automacoes e utilitarios usados como base de
+              estudos e prototipos.
             </p>
             <div class="project-tags">
               <span class="tag">Misc</span>
+              <span class="tag">Python</span>
+              <span class="tag">Automacao</span>
             </div>
             <div class="project-links">
               <a href="https://github.com/RamomPacheco/projetos_program" target="_blank" rel="noopener noreferrer"
